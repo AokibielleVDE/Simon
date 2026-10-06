@@ -612,6 +612,7 @@ GameObject:
   - component: {fileID: 1069608170}
   - component: {fileID: 1069608169}
   - component: {fileID: 1069608168}
+  - component: {fileID: 1069608172}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -707,6 +708,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1069608172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069608167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1c9d96f56f93148b2d220b8b6c9d1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GenerarSecuencia
+  botones:
+  - {fileID: 423587408}
+  - {fileID: 2120218839}
+  - {fileID: 1187021632}
+  - {fileID: 247049099}
+  - {fileID: 1291152976}
+  secuencia: 00000000000000000000000000000000000000000000000000000000000000000000000000000000i
+  indiceActual: 0
+  puedeJugar: 0
 --- !u!1 &1187021630
 GameObject:
   m_ObjectHideFlags: 0
